@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Books
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Books.Views
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class BooksPage : ContentPage
     {
-        public MainPage()
+        public BooksPage()
         {
             InitializeComponent();
         }
