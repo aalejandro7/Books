@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Books.Views.BookDetailPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             Title="Book Detail">
+    <ContentPage.Content>
+        <ScrollView
+            BindingContext="{Binding BookDetail}">
+            <StackLayout
+                Padding="5">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="{Binding Book.Image}"
+                    WidthRequest="150">
+                </Image>
+                <Label
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Text="{Binding Book.Title}"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Text="{Binding Book.Subtitle}"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Text="{Binding Book.Url}"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    FontAttributes="Bold"
+                    Text="{Binding Book.Price, StringFormat='Price: {0:C2}'}"
+                    TextColor="Black">
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

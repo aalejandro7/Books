@@ -4,9 +4,9 @@
     using Xamarin.Forms.Xaml;
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BooksPage : ContentPage
+    public partial class BookDetailPage : ContentPage
     {
-        public BooksPage()
+        public BookDetailPage()
         {
             InitializeComponent();
         }
