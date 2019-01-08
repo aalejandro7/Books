@@ -1,4 +1,4 @@
-﻿namespace Books.ClassicAndroid.Models
+﻿namespace Books.Core.Models
 {
     public class Response
     {

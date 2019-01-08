@@ -1,9 +1,9 @@
-﻿namespace Books.ClassicAndroid.Services
+﻿namespace Books.Core.Services
 {
     using System;
     using System.Net.Http;
     using System.Threading.Tasks;
-    using Models;
+    using Core.Models;
     using Newtonsoft.Json;
 
     public class ApiService

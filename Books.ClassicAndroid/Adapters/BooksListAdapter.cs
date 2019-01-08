@@ -4,8 +4,8 @@
     using Android.App;
     using Android.Views;
     using Android.Widget;
+    using Core.Models;
     using Helpers;
-    using Models;
 
     public class BooksListAdapter : BaseAdapter<Book>
     {

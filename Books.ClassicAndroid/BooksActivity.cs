@@ -7,9 +7,9 @@
     using Android.Content;
     using Android.OS;
     using Android.Widget;
-    using Models;
+    using Core.Models;
+    using Core.Services;
     using Newtonsoft.Json;
-    using Services;
 
     [Activity(Label = "Books", MainLauncher = true)]
     public class BooksActivity : Activity

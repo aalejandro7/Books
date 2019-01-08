@@ -3,8 +3,8 @@
     using Android.App;
     using Android.OS;
     using Android.Widget;
+    using Core.Models;
     using Helpers;
-    using Models;
     using Newtonsoft.Json;
 
     [Activity(Label = "Book Detail")]
