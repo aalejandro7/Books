@@ -1,4 +1,4 @@
-﻿namespace Books.Models
+﻿namespace Books.ClassicAndroid.Models
 {
     using Newtonsoft.Json;
     using System;

@@ -9,7 +9,7 @@
             <infra:InstanceLocator x:Key="Locator"/>
             
             <!-- Service URL -->
-            <x:String x:Key="ServiceURL">https://api.itbook.store/1.0/new</x:String>
+            <x:String x:Key="ServiceURL">https://api.itbook.store</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
