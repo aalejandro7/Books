@@ -14,5 +14,8 @@ namespace Books.ClassiciOS
     [Register ("ViewController")]
     partial class ViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
